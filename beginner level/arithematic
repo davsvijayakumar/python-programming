@@ -1,0 +1,11 @@
+b=0
+c=1
+d=3
+for i in range (0,5):
+    a=int (input())
+    b=b+a
+    c=c*a
+d=c/b
+print("the ten add no is ",b)
+print("the ten multiplication no is ",c)
+print("the ten divided no is ",d)
