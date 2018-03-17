@@ -1,0 +1,7 @@
+m= 'Programmer'
+l=m.count('r')
+print(l)
+f=m.find('g')
+print(f)
+r=m.replace('m','y')
+print(r)
