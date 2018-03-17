@@ -1,0 +1,15 @@
+b,c,d,p,s,m=0,1,3,2,1,2
+for i in range (0,5):
+    a=int (input())
+    b=b+a
+    c=c*a
+    p=p**a
+    s=s-a
+m=a%m
+d=c/b
+print("the ten add no is ",b)
+print("sub no",s)
+print("the ten mul no is",c)
+print("div no",d)
+print("the ten modullo no is ",m)
+print("power no",p)
